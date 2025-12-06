@@ -72,6 +72,7 @@ cp .env.example .env   # Update DB credentials
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
-## 👨‍💻 Made By
-**Feeroz Khan**
+
+<p align="center">Made with ❤️ by <strong>Feeroz Khan</strong></p>
+
 
