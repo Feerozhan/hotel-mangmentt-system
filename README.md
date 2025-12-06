@@ -12,6 +12,10 @@ A Laravel 10 based hotel booking & room management system with full admin panel,
 
 ---
 
+<p align="center">Made with ❤️ by <strong>Feeroz Khan</strong></p>
+
+---
+
 ## 📚 Overview
 
 This system allows guests to check room availability based on dates, view facilities, and make reservations.  
@@ -23,11 +27,11 @@ Admin can manage rooms, bookings, and room visibility using a dedicated dashboar
 
 | Technology | Usage |
 |-----------|--------|
-| Laravel 10 | Backend Framework |
-| Blade Templates | UI Templates |
-| Eloquent ORM | Database Handling |
+| Laravel 10 | Backend |
+| Blade Templates | UI |
+| Eloquent ORM | DB Handling |
 | MySQL | Database |
-| Authentication (Laravel Breeze/Default) | Secure Login System |
+| Authentication | Login System |
 | Migrations & Seeders | DB Setup |
 
 ---
@@ -35,29 +39,26 @@ Admin can manage rooms, bookings, and room visibility using a dedicated dashboar
 ## ✨ Features
 
 ### 👤 User Side
-- Register/Login system
-- Check room availability by check-in & check-out date
-- View room details, pricing, facilities
-- Book room & track via **My Bookings**
+- Register / Login
+- Check availability by dates
+- Book rooms
+- View My Bookings
 - Update profile
-- Input validation & error handling
 
 ### 🔐 Admin Side
-- Secure Admin Login
-- Dashboard with:
-  - Add / Edit / Delete Rooms
-  - Set Room Visibility (Show/Hide)
-  - View all bookings
-- Room inventory management
+- Admin login
+- Add / Edit / Delete rooms
+- Set room visibility (Show/Hide)
+- View all bookings
 
 ---
 
 ## 📸 Demo Screens
 
-### Reservation Page
+### Reservation
 ![userside](https://github.com/ramezcode1/hotelManagement/assets/135148978/fc2feeb3-c21c-4dc4-83b8-2dc115225386)
 
-### Admin Dashboard
+### Dashboard
 ![dashboard](https://github.com/ramezcode1/hotelManagement/assets/135148978/f876a480-efb4-4482-b78f-bbc9859d4e53)
 
 ---
@@ -72,9 +73,3 @@ cp .env.example .env   # Update DB credentials
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
----
-
-<p align="center">Made with ❤️ by <strong>Feeroz Khan</strong></p>
-
----
-
